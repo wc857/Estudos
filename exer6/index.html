@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Colocando imagens de fundo</title>
+
+    <style>
+        body{
+            background-image: url(imagens-cap19/wallpaper005.jpg);
+        }
+
+        div.quadrado{
+            display: inline-flex;
+            background-color: rgb(228, 228, 228);
+            margin: 4px;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        div#azul{
+            background-image: linear-gradient(to bottom, rgb(251, 255, 0), red, rgb(197, 0, 0));
+        }
+
+        div#ver{
+            background-image: linear-gradient(to bottom right, rgb(70, 70, 255), rgb(0, 0, 170), rgb(0, 0, 145));
+        }
+
+        div#cin{
+            background-image: url(imagens-cap19/wallpaper001.jpg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Olá, Mundo!</h1>
+    </header>
+
+    <div class="quadrado" id="azul">
+
+    </div>
+
+    <div class="quadrado" id="ver">
+
+    </div>
+
+    <div class="quadrado" id="cin">
+
+    </div>
+</body>
+</html>
