@@ -1,0 +1,76 @@
+* {
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #161925, #001d3b, #0E0026, #130033);
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px; 
+}
+
+div{
+    background-color: aqua;
+    padding: 1px;
+    margin: 0px;
+}
+
+
+
+.fo{
+    font-family: 'Kaushan Script', cursive;
+}
+
+img{
+    width: 200px;
+}
+
+.bu{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 28px;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-style:oblique;
+    background-color: #121529;
+    color: aliceblue;
+}
+
+.bu:hover{
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(94, 94, 94);
+}
+
+main{
+    background-color: #121529;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+button{
+    border-bottom: none;
+    border-style:solid;
+    color: rgb(177, 175, 175);
+    width: 250px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgb(49, 63, 63);
+
+}

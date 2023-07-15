@@ -1,0 +1,85 @@
+
+
+body{
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bola{
+    padding: 20px;
+    background-color: #ffff;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    border-radius: 90px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.bolapag{
+    padding: 20px;
+    background-color: #ffff;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    border-radius: 90px;
+    width: 500px;
+    margin: auto;
+}
+
+.bolaa{
+    padding: 20px;
+    background-color: #ffff;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    border-radius: 90px;
+    width: 500px;
+    margin-left: 700px;
+}
+
+.bol{
+    padding: 5px;
+    background-color: #ffff;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    border: solid;
+    border-radius: 400px 600px;
+    margin-left: 800px;
+    width: 250px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.bol:hover{
+    box-shadow: 10px 10px 10px;
+    background-color: #c0c0c0;
+}
+
+.botao{
+    padding: 5px;
+    background-color: #ffff;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    border: solid;
+    border-radius: 400px;
+    width: 250px;
+    text-align: center;
+    margin-left: 80%;
+}
+
+.botao:hover{
+    box-shadow: 20px 20px 20px;
+    background-color: #c0c0c0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fonte{
+    text-align: center;
+}
