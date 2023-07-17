@@ -1,0 +1,18 @@
+
+
+body{
+    height: 95vb;
+    background-image: url(imagens-cap19/wallpaper002.jpg);
+    background-position: center center;
+}
+
+div{
+    background-color: #ffff;
+    margin: 1px;
+    border: none;
+    border-radius: 10px;
+    padding: auto;
+    width: 500px;
+    box-shadow: 5px 5px black;
+    text-indent: 10px;
+}
