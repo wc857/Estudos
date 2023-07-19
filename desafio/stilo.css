@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(126, 126, 126);
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+nav{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 2.5vw;
+}
+
+nav.bc{
+    background-color: white;
+}
+
+nav.image{
+    background-color: black;
+    color: white;
+}
+
+nav#b{
+    background-image: url(imagem/pacote-d012/imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgb(87, 87, 87);
+}
+
+nav#c{
+    background-image: url(imagem/pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(39, 39, 39, 0.801);
+}
+
+nav.image > p{
+    display: inline-block;
+    background-color: rgba(37, 37, 37, 0.384);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
