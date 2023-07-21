@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom left, #665676,#281C3E, #331436);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+    padding: 6px;
+    
+}
+
+header > img{
+    margin-right: 32px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.a{
+    display: flex;
+    gap: 32px;
+    border-left: 0.4px solid rgb(92, 92, 92);
+    padding-left: 32px;
+}
+
+div.a > a{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    text-decoration: none;
+    color: #6D6379;
+}
+
+div.a> a:hover{
+    background-color: #78718527;
+    border: none;
+    border-radius: 20px;
+}
+
+.b{
+    display: flex;
+    gap: 32px;
+    margin-left: 42vw;
+}
+
+.b > a{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+#bot{
+    background-color: #782396;
+    border: none;
+    border-radius: 20px;
+}
+
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.palavra{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    color: #ffff;
+    width: 700px;
+}
+
+.pa{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 400px;
+    font-family: 'Sarala', sans-serif;
+    text-indent: 20px;
+    font-size: 13px;
+    color: #ffff;
+}
+
+.pa > p{
+    margin-bottom: 40px;
+}
+
+.pa > button{
+    background-color: #ffff;
+    font-family: 'Sarala', sans-serif;
+    color: #782396;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    border-top: 0.4px solid #787185;
+}
+
+footer > img{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}

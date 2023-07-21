@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to top right, rgba(47, 35, 37, 1), rgba(142, 93, 82, 1));
+    color: rgba(255, 242, 231, 1);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-size: 1.6vw;
+}
+
+header > image{
+    height: 72px;
+}
+
+header > nav{
+    display: flex;
+    gap: 32px;
+}
+
+header > nav > a{
+    color: rgba(255, 242, 231, 1);
+    font-family: 'Sarala', sans-serif;
+}
+
+main{
+    margin-bottom: 46px;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+}
+
+.corpoa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corpoa > div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.corpoa > img{
+    width: 394.13px;
+    height: 429.31px;
+}
+
+.corpoa > div > h1{
+    font-family: 'Righteous', cursive;
+    color: rgba(255, 242, 231, 1);
+    font-size: 64px;
+}
+
+.corpoa > div > h2{
+    font-family: 'Sarala', sans-serif;
+    color: rgba(236, 214, 196, 1);
+    font-size: 24px;
+}
+
+.corpoa > div > button{
+    background-color: rgba(236, 214, 196, 1);
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    width: 185px;
+    height: 67px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.corpob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 46px;
+}
+
+.corpob > h3{
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    border-top: 0.4px solid rgba(255, 242, 231, 1);
+    padding-top: 46px;
+}
+
+.corpob > p{
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 46px;
+    border: 0.4px solid rgba(255, 242, 231, 1)
+}
+
+footer > img{
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
