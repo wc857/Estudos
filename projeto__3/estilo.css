@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+html, body{
+    height: 100vh;
+    width: 98vw;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #00FF81;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    background-color: #1A0E26;
+    margin: 8vw;
+    padding-bottom: 65px;
+    border: none;
+    border-radius: 34px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 60px;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: #04FDC3;
+}
+
+.a > div > h1{
+    width: 390px;
+}
+
+.a > img{
+    margin-top: 35px;
+    width: 260px;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 23px;
+    gap: 20px;
+    background-color: #2F1E40;
+}
+
+.b > div{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #0FFE85;
+}
+
+.b > form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+#i1, #i2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#i1 > label, #i2 > label{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+
+#i1 > input, #i2 > input{
+    background-color: #58456D;
+    font-family: 'Sarala', sans-serif;
+    text-indent: 12px;
+    color: #cacaca;
+    border: none;
+    border-radius: 6px;
+    width: 280px;
+    height: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+}
+
+#bu{
+    background-color: #00F675;
+    box-shadow: 5px 5px 15px #01303F;
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #2F1E40;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    width: 280px;
+    height: 40px;
+}
