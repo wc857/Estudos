@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Exemplo de Formulário
+    </h1>
+
+    <form>
+        <label for="inome">Nome:</label>
+        <input type="number" max="50" name="nome" id="inome" required oninput="isoma.innerHTML = Number(inome.value) + Number(it.value)">
+
+        <label for="it">
+            t:
+        </label>
+        <input type="number" max="50" id="it" required oninput="isoma.innerHTML = Number(inome.value) + Number(it.value)">
+
+
+        <label for="isoma">
+            soma:
+        </label>
+        <output id="isoma">
+            0
+        </output>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+    <h1>
+        Segundo exemplo
+    </h1>
+
+    <form>
+        <label for="irange">Numero</label>
+        <input type="range" id="irange" min="0" max="10" value="5" oninput="ival.innerHTML = Number(irange.value)">
+        <output id="ival">0</output>
+    </form>
+
+    <h1>
+        Utilizando script
+    </h1>
+
+    <form>
+        <label for="idata">Data:</label>
+        <input type="number" id="idata" min="1900" max="2023" oninput="calcIdade()">
+        
+        <label for="idade">idade</label>
+        <output id="idade">0</output>
+    </form>
+
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(idata.value)
+        }
+    </script>
+</body>
+</html>

@@ -104,6 +104,7 @@ main{
 #bu{
     background-color: #00F675;
     box-shadow: 5px 5px 15px #01303F;
+    cursor: pointer;
     font-family: 'Sarala', sans-serif;
     font-weight: bold;
     font-size: 15px;
