@@ -29,6 +29,9 @@ main{
     border: none;
     border-radius: 34px;
     box-shadow: 5px 5px 5px black;
+    opacity: 0;
+    transform: translate(-30px);
+    animation: corpoani 1s ease forwards;
 }
 
 .a{
@@ -41,6 +44,9 @@ main{
     font-family: 'Righteous', cursive;
     font-size: 25px;
     color: #04FDC3;
+    opacity: 0;
+    transform: translate(-20px);
+    animation: corpoani 1s 0.5s ease forwards;
 }
 
 .a > div > h1{
@@ -62,6 +68,9 @@ main{
     border-radius: 23px;
     gap: 20px;
     background-color: #2F1E40;
+    opacity: 0;
+    transform: translate(-20px);
+    animation: corpoani 1s 0.8s ease forwards;
 }
 
 .b > div{
@@ -115,4 +124,11 @@ main{
     border-radius: 6px;
     width: 280px;
     height: 40px;
+}
+
+@keyframes corpoani{
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
