@@ -6,4 +6,7 @@ document.addEventListener('keyup', function(){
     }
 });
 
-window.alert('Seja Bem-Vindo a nossa Plataforma!')
+function loading(){
+    document.querySelector('.carregamento').style.display = 'none'
+    document.querySelector('main').style.display = 'flex'
+}

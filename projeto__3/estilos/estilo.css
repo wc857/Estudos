@@ -18,7 +18,7 @@ body{
 }
 
 main{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,35 @@ main{
     opacity: 0;
     transform: translate(-30px);
     animation: corpoani 1s ease forwards;
+}
+
+.carregamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50vh);
+}
+
+.carregamento > div{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.circulo_1{
+    animation: loading_1 0.5s ease infinite alternate;
+    
+}
+
+.circulo_2{
+    animation: loading_2 0.5s 0.3s ease infinite alternate;
+
+}
+
+.circulo_3{
+    animation: loading_3 0.5s 0.4s ease infinite alternate;
 }
 
 .a{
@@ -130,5 +159,26 @@ main{
     to{
         opacity: 1;
         transform: translate(0px);
+    }
+}
+
+@keyframes loading_1{
+    to{
+        transform: translateY(-15px);
+        background-color: rgb(15, 121, 243);
+    }
+}
+
+@keyframes loading_2{
+    to{
+        transform: translateY(-15px);
+        background-color: rgb(255, 238, 0);
+    }
+}
+
+@keyframes loading_3{
+    to{
+        transform: translateY(-15px);
+        background-color: rgb(228, 61, 32);
     }
 }
