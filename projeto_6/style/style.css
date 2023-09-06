@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sarala', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color: #ffff;
+}
+
+.content{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.content ul{
+    display: flex;
+    width: 350px;
+}
+
+.content ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+
+.content ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    
+    transition: 0.5s;
+}
+
+.content ul li a .text{
+    color: rgb(31, 31, 31);
+    opacity: 1;
+}
+
+.list.active{
+    transform: translateY(-50px);
+
+    transition: 0.5s;
+}
+
+.select{
+    position: absolute;
+    bottom: 51px;;
+    left: 25px;
+    padding: 30px;
+    border-radius: 50%;
+    border: 6px solid  rgb(31, 31, 31);
+    background-color: #39ff08;
+
+    transition: 0.5s;
+}
+
+.selecta{
+    transform: translateX(calc(70px * 1));
+
+}
+.selectb{
+    transform: translateX(calc(70px * 2));
+
+}
+.selectc{
+    transform: translateX(calc(70px * 3));
+
+}
+.selectd{
+    transform: translateX(calc(70px * 4));
+
+}
