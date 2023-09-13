@@ -1,0 +1,69 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+}
+
+.planet{
+    animation: luz 3s linear infinite alternate;
+    border: none;
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 80px;
+    box-shadow: 0px 0px 10px rgb(143, 181, 184);
+}
+
+.orbit{
+    animation: orbit 15s linear infinite;
+    padding: 130px;
+    border-left: solid 3px transparent;
+    border-top: solid 0px transparent;
+    border-right: solid 1px #ffff;
+    border-bottom: solid 3px transparent;
+    border-radius: 50%;
+    position: relative;
+}
+
+.orbit::after{
+    content: '';
+    animation: luz 3s linear infinite alternate;
+    position: absolute;
+    padding: 40px;
+    border-radius: 50%;
+    background-color: red;
+    
+    transform: translate(220px,-10px);
+}
+
+@keyframes luz{
+    0%{
+        box-shadow: 0px 0px 5px rgb(143, 181, 184);
+    }
+
+    50%{
+        box-shadow: 2px 0px 10px rgb(143, 181, 184);
+    }
+
+    70%{
+        box-shadow: 4px 0px 15px rgb(143, 181, 184);
+    }
+
+    100%{
+        box-shadow: 0px 3px 20px rgb(143, 181, 184);
+    }
+}
+
+@keyframes orbit{
+    to{
+        transform: rotate(360deg);
+    }
+}
